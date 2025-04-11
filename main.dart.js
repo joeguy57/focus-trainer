@@ -29209,7 +29209,7 @@ ak(){var s,r,q=new A.xF()
 B.bi.fO(q.gU8())
 s=t.s
 r=t.N
-return new A.tw(q,A.a(["A","B","C","D","1","2","3","4","Star","Square","Triangle","Circle"],s),A.a(["north","south","east","west"],s),A.aJ(["north","","south","","east","","west",""],r,r))}}
+return new A.tw(q,A.a(["A","B","C","D","1","2","3","4","\u2605","\u25a0","\u25b2","\u25cf"],s),A.a(["north","south","east","west"],s),A.aJ(["north","","south","","east","","west",""],r,r))}}
 A.tw.prototype={
 az(){this.b3()
 this.j1()},
@@ -29217,7 +29217,7 @@ j1(){var s=0,r=A.S(t.H),q=this,p
 var $async$j1=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:p=q.d
 s=2
-return A.W(p.mo(0.3),$async$j1)
+return A.W(p.mo(0.8),$async$j1)
 case 2:s=3
 return A.W(p.mp(1),$async$j1)
 case 3:s=4
@@ -29242,10 +29242,10 @@ kP(){var s=0,r=A.S(t.H),q=this,p,o
 var $async$kP=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:p=q.f[B.hv.CZ(4)]
 o=q.r.i(0,p)
-if(o==="Star")o="Star"
-else if(o==="Square")o="Square"
-else if(o==="Triangle")o="Triangle"
-else if(o==="Circle")o="Circle"
+if(o==="\u2605")o="Star"
+else if(o==="\u25a0")o="Square"
+else if(o==="\u25b2")o="Triangle"
+else if(o==="\u25cf")o="Circle"
 s=2
 return A.W(q.d.mr(0,"Look at "+A.p(o)),$async$kP)
 case 2:++q.x
